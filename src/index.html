@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>hw-js-11</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -13,7 +13,7 @@
     <section>
       <form class="form-search">
       <div class="form-group">
-        <input type="text" class="form-input" placeholder="Search images..." />
+        <input type="text" class="form-input" name="query" placeholder="Search images..." />
         <button type="submit" class="btn btn-search">Search</button></div>
     </form>
      <div class="loader-container">
@@ -21,6 +21,9 @@
     </div>
 
     <ul class="gallery"></ul> 
+    <button class="btn-load-more">Load more</button>
+
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
